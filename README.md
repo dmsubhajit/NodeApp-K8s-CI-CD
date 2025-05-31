@@ -2,6 +2,11 @@
 
 This project demonstrates a full DevOps workflow using GitHub Actions, Docker, and Kubernetes (Minikube).
 
+![Image](https://github.com/user-attachments/assets/32f5d6e0-7a93-452c-8559-2fed90efc031)
+![Image](https://github.com/user-attachments/assets/8351c042-a1b3-4f56-9fa9-7cc1121ba3ad)
+![Image](https://github.com/user-attachments/assets/6889d0ae-c1d7-47ea-8abf-f69c22218013)
+
+
 ## Tech Stack
 - Node.js + express
 - Docker
