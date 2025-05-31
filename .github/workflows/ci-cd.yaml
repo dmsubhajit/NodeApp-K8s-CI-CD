@@ -30,4 +30,5 @@ jobs:
 
             # - name: Deploy to Kubernetes (optional, if local)
             #   run: |
-            #    kubectl apply -f k8s/
+            #     kubectl apply -f k8s/namespace.yaml
+            #     kubectl apply -n nodeapp -f k8s/

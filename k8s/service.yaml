@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodeapp-service
+  namespace: nodeapp
+  labels:
+    app: nodeapp
+    environment: testing
+spec:
+  selector:
+    app:  nodeapp
+  type: NodePort
+  ports:
+  - nodePort: 30001  # External port (30000-32767)
+    port:  80  # Cluster-internal port (other Pods use this)
+    targetPort:  3000 # Your Node.js container port
